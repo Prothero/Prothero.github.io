@@ -1,0 +1,214 @@
+HTML::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Prothero hjemmeside</title>
+	</head>
+	<body>
+		<div id="header">
+			<div id="navbar">
+				<ul>
+					<li>Hjem</li>
+					<li>Om meg</li>
+					<li>Mine andre sider/spill</li>
+					<li>Kontakt meg</li>
+				</ul>
+			</div>
+			<h1>Velkommen til min hjemmeside!</h1>
+		</div>
+		<div id="left">
+		<img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/c0.0.180.180/s160x160/1379894_627165664007386_790478380_a.jpg"/>
+		<p>Jeg heter Magnus og er 16 år. Går første året på vidregående skole. Jeg er ganske ny på HTML, så har ikke rukket å blitt så god enda. Men skal jobbe meg sakte, men sikkert oppåver så får vi se hva som skjer videre! </p>
+		</div>
+		<div id="right">
+		<table>
+			<th colspan="3">Søstrende, brødrene og far min!</th>
+			<tr>
+				<td><img src="https://scontent-a-lhr.xx.fbcdn.net/hphotos-ash2/36828_10150257965715425_393343_n.jpg?lvh=1"/></td>
+				
+				<td><img src="https://scontent-b-lhr.xx.fbcdn.net/hphotos-ash3/60890_441742368538_5186074_n.jpg"/></td>
+				
+				<td><img src="https://scontent-a-lhr.xx.fbcdn.net/hphotos-frc3/971112_10153109351060425_60003225_n.jpg"/></td>
+			</tr>
+			<tr>
+				<td><img src="https://scontent-a-lhr.xx.fbcdn.net/hphotos-ash2/1000103_10153042263535319_40997958_n.jpg"/></td>
+				
+				<td><img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-prn2/1175617_1411367299090802_741431796_n.jpg"/></td>
+				<td><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSzAMBHOqXyGW4m3CQr1RVmxxmHU8nDH730O4qDkx-iJaQ4zzCTUA"/></td>
+			</tr>
+			<tr>
+				
+			</tr>
+		</table>
+		</div>
+		<div id="footer">
+			<div id="button">
+				<p>Send meg en <span class="bold">epost</span>!</p>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+CSS -----------------------------------------------------------------------------------------------------
+
+body {
+	background-color: grey;
+}
+
+h1 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	color: grey;
+}
+
+img {
+	height: 170px;
+	width: 170px;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+
+}
+
+#navbar {
+	/*Test ut litt*/
+	
+	left:55%;
+	margin-left:-254px;
+	position: fixed;
+	margin-top: 0px;
+	
+}
+
+#header {
+	position: relative;
+	top: -10px;
+	background-color: #3c4543;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+ul{
+	list-style-type: none;
+	position: fixed;
+	margin: -10px;
+}
+
+li {
+	/*ATest ut litt*/
+	
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	border-radius: 5px 5px;
+	background-color: #cc0323;
+	display: inline;
+}
+
+#left{
+	/*test ut litt*/
+	float: left;
+	width: 45%;
+	
+	
+}
+
+p {
+	font-family: Tahoma;
+	font-size: 1em;
+}
+
+#right{
+	/*test ut litt*/
+	float: right;
+	width: 45%;
+	
+}
+
+table {
+	border: #000000 1px solid;
+	background-color: lightgrey;
+	float: right;
+	margin-right: 10px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+td {
+	height: 75px;
+	width: 75px;
+	
+}
+
+td img {
+	height: 75px;
+	width: 75px;
+	box-shadow: none;
+	
+}
+
+th {
+	font-family: Verdana;
+	font-size: 1em;
+	font-weight: normal;
+	color: black;
+	
+}
+
+#bottom_left{
+	border-bottom-left-radius: 15px;
+}
+
+#bottom_right{
+	border-bottom-right-radius: 15px;
+}
+
+#footer{
+	/*test ut litt*/
+	
+	position: relative;
+	bottom: -20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 75px;
+	background-color: #3c4543;
+	clear: both;
+}
+
+#button{
+	border: 2px solid #000000;
+	float:left;
+	position: relative;
+	left: 229px;
+	bottom: -20px;
+	border-radius: 5px;
+	background-color: #cc0323;
+	height: 30px;
+	width: 150px;
+	
+}
+
+#button p{
+	position: relative;
+	bottom: 10px;
+	font-size: 0.8em;
+	color: #acd1b2;
+	text-align: center;
+}
+
+.bold{
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 1.2em;
+	font-variant: small-caps;
+	color: #ffffff;
+}
+
+* {
+    padding: 5px;
+    
+}
