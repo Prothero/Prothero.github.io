@@ -78,8 +78,8 @@ table {
 	background-color: lightgrey;
 	float: right;
 	margin-right: 10px;
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
 }
 
 td {
@@ -151,8 +151,6 @@ th {
 	font-variant: small-caps;
 	color: #ffffff;
 }
-
-
 
 a {
 	text-decoration: none;
