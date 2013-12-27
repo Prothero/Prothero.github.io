@@ -8,8 +8,9 @@ h1 {
 	text-align: center;
 	padding-top: 35px;
 	padding-bottom: 35px;
-	color: white;
-	font: bold italic 2em/1em "Times New Roman", "MS Serif", "New York", serif;
+	font: bold 330%/100% "Lucida Grande";
+  position: relative;
+  color: #464646;
 }
 
 img {
