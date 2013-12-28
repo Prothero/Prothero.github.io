@@ -2,6 +2,10 @@ body {
 	background-color: grey;
 }
 
+#gmail {
+	color:DarkSlateGray;
+}
+
 h1 {
 	font-family: Verdana;
 	font-weight: bold;
