@@ -1,4 +1,31 @@
-h1
+html 
 {
-	color:red;
+	margin-top: -50px;
 }
+
+.overskrift
+ {
+	font-family: verdana;
+	font-size: 50px;
+	text-shadow: 5px 5px 5px green;
+	margin-left: 400px;
+	margin-right: 200px;
+	margin-top: 200px;
+	
+}
+
+body 
+{
+	text-shadow: 2px 2px 2px yellow;
+	background-color: #cc0000;
+	margin-left: 100px;
+	margin-right: 200px;
+	font-size: 30px;
+	
+	
+}
+
+
+ 
+
+
