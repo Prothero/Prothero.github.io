@@ -1,0 +1,8 @@
+Hvordan legge til nye filer:
+git add filnavn
+
+For å lagre endringene:
+git commit -am "legge til ny fil feks"
+
+For å sende endringene til server:
+git push
