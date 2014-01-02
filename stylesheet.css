@@ -25,6 +25,7 @@ body	{
 		height: 180px;
 		background-color: litegrey;
 		float: left;
+		
 }
 
 #left	{
@@ -32,11 +33,11 @@ body	{
 		border-bottom-left-radius: 20px;
 		border-top-left-radius: 20px;
 		border-top-right-radius: 20px;
-		height: 700px;
+		height: 1100px;
 		background-color: #3c4543;
 		float: left;
+		
 }
-
 
 		
 
