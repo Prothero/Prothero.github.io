@@ -6,6 +6,10 @@ body {
 	color:DarkSlateGray;
 }
 
+table {
+	width: 50px;
+}
+
 h1 {
 	font-family: Verdana;
 	font-weight: bold;
@@ -190,7 +194,7 @@ th {
 	float: left;
 	position: relative;
 	left: 229px;
-	bottom: -12px;
+	bottom: -15px;
 	border-radius: 10px;
 	background-color: #cc0323;
 	height: 30px;

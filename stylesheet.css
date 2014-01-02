@@ -1,31 +1,23 @@
-html 
-{
-	margin-top: -50px;
+h1 {
+		color: black;
+		font-family: Verdana;
 }
 
-.overskrift
- {
-	font-family: verdana;
-	font-size: 50px;
-	text-shadow: 5px 5px 5px green;
-	margin-left: 400px;
-	margin-right: 200px;
-	margin-top: 200px;
-	
+a {
+		
+		font-family: Verdana;
+		margin-top: 300px;
+		text-decoration: none;
+		color: black;
+		font-style: italic
+		
 }
 
-body 
-{
-	text-shadow: 2px 2px 2px yellow;
-	background-color: #cc0000;
-	margin-left: 100px;
-	margin-right: 200px;
-	font-size: 30px;
-	
-	
+body {
+		background: grey;
 }
 
 
- 
+		
 
 
