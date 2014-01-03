@@ -17,18 +17,18 @@ body	{
 		background: white;
 }
 
-/*#menybar	{
+#menybar	{
 		border-bottom-right-radius: 0px;
 		border-bottom-left-radius: 0px;
 		border-top-left-radius: 20px;
 		border-top-right-radius: 20px;
-		height: 180px;
-		background-color: red;
+		height: 1100px;
+		background-color: litegrey;
 		float: left;
 		
-}*/
+}
 
-#left	{
+/*#left	{
 		border-bottom-right-radius: 20px;
 		border-bottom-left-radius: 20px;
 		border-top-left-radius: 20px;
@@ -37,7 +37,7 @@ body	{
 		background-color: litegrey;
 		float: left;
 		
-}
+}*/
 
 		
 
