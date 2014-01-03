@@ -14,7 +14,7 @@ a {
 }
 
 body	{
-		background: white;
+		background: silver;
 }
 
 #menybar	{
@@ -23,7 +23,7 @@ body	{
 		border-top-left-radius: 20px;
 		border-top-right-radius: 20px;
 		height: 1100px;
-		background-color: litegrey;
+		background-color: grey;
 		float: left;
 		
 }
