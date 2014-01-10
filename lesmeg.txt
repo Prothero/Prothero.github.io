@@ -1,3 +1,7 @@
+Starter bash:
+cd prothero.github.io
+
+
 Hvordan legge til nye filer:
 git add filnavn
 
