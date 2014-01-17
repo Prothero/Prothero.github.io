@@ -1,43 +1,51 @@
-h1 {
-		color: black;
+h1	{
 		font-family: Verdana;
 }
 
-a {
+a	{
 		
 		font-family: Verdana;
 		margin-top: 300px;
 		color: black;
 		font-style: italic;
-		/*text-decoration: none;*/
-		
 }
 
 body	{
 		background: silver;
 }
 
-#menybar	{
+/*grå/svarte partiet øverst*/
+#header	{
+		height: 100px;
+		background-color: black;
+		margin-top: -20px;
+		margin-bottom: 0px;
 		border-bottom-right-radius: 0px;
 		border-bottom-left-radius: 0px;
-		border-top-left-radius: 20px;
-		border-top-right-radius: 20px;
-		height: 1100px;
-		background-color: grey;
-		float: left;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		color: lightblue;
 		
 }
 
-/*#left	{
-		border-bottom-right-radius: 20px;
-		border-bottom-left-radius: 20px;
-		border-top-left-radius: 20px;
-		border-top-right-radius: 20px;
+/*menybaren til venstre*/
+#menybar	{
+		border-bottom-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
 		height: 1100px;
-		background-color: litegrey;
+		background-color: grey;
 		float: left;
+		margin-bottom: 50px;
 		
-}*/
+}
+
+
+
+
+
+
 
 		
 
