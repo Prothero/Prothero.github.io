@@ -1,8 +1,9 @@
 body 	{
-		background-image:url('https://lh6.googleusercontent.com/-CYLUQfrLsp0/TXHTa765EeI/AAAAAAAAADg/_UIXGa1eGqs/s1600/rednecks-big2000px-1.jpg');
+		background-image:url('');
 		text-decoration: none;
 		}
+
+.menybar	{
+		font-family: Comic Sans MS;
 		
-#header	{
-		text-align: center;
 }
