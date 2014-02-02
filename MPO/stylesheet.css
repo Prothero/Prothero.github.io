@@ -1,28 +1,43 @@
-body 	{
-		background-image:url('diamondbreakers.png'); 
+*	{
+		margin: 0px;
+		padding: 0px;
+}
+
+div#menybar	{
+		width: 200px;
+		margin-top: 50px;
+}
+
+div#menybar ul	{
+		list-style: none;
+}
+
+div#menybar ul li	{
+		margin-top: 15px;
+		font-family: tahoma;
+		font-size: 18px;
+		background-color: #639bb3;
+		width: 160px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 0px 20px 20px 0px;
+		padding-left: 20px;
+		box-shadow: 5px 0px 10px #939393;
+		-webkit-transition: padding-left 0.6s;
+		color: white;
+}
+
+div#menybar ul li:hover	{
+		padding-left: 50px;
+}
+
+body	{
+		text-align: center;
+		background-color: #999999;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		background-size: cover;
 		background-repeat:repeat-y;
-		color: white;
-		
 }
-
-#menybar	{
-		height: 50px; 
-		margin-top: 20px;
-		font-size: 20px;
-		font-family: Comic Sans MS;
-		text-decoration: none;
 		
 		
-}
-
-.text	{
-		
-		font-family: Comic Sans MS;
-}
-
-h1	{
-		color: white;
-}
