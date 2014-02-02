@@ -34,10 +34,7 @@ div#menybar ul li:hover	{
 body	{
 		text-align: center;
 		background-color: #999999;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		background-size: cover;
-		background-repeat:repeat-y;
+		
 }
 		
 		
