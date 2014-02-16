@@ -36,10 +36,10 @@ body	{
 		text-align: center;
 		background-image:url('diamondbreakers1.png'); 
 		background-repeat:no-repeat;
-		-webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+		background-size: cover;
+      	background-size: cover;
+      	background-size: cover;
+      	background-size: cover;
 		
 }
 
