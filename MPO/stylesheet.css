@@ -17,7 +17,7 @@
 		margin-top: 15px;
 		font-family: tahoma;
 		font-size: 18px;
-		background-color: black;
+		background-color: ;
 		width: 160px;
 		padding-top: 10px;
 		padding-bottom: 10px;
@@ -32,7 +32,7 @@
 		padding-left: 50px;
 }
 
-body	{
+body 	{
 		text-align: center;
 		background-image:url('diamondbreakers1.png'); 
 		background-repeat:no-repeat;
@@ -40,7 +40,9 @@ body	{
       	background-size: cover;
       	background-size: cover;
       	background-size: cover;
-		
+
+
+
 }
 
 /*h1	{
@@ -52,13 +54,18 @@ body	{
 }*/
 
 .header	{
-		font-family:Impact;
+		font-family: Impact;
 }
  
 p	{
 		font-family: Comic Sans MS;
+		color: white;
 }
 
-		
+
+
+
+
+
 		
 		
