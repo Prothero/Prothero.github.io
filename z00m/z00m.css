@@ -99,6 +99,12 @@ a:hover, a:active {
 	margin-top: 2%;
 }
 
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 90%;
+}
+
 .top-sidebar {
 	width: 21%;
 	float: left;
@@ -109,12 +115,6 @@ a:hover, a:active {
 /*klokkevis (margin) - top - høyere - bunn - venstre*/
 	margin: 2% 0% 2% 3%;
 	padding: 2% 3%;
-}
-
-.post-info {
-	font-style: italic;
-	color: #999;
-	font-size: 90%;
 }
 
 .middle-sidebar {
@@ -176,31 +176,53 @@ a:hover, a:active {
 	}
 
 	.mainheader nav ul {
+		padding-left: 0;
 	}
 
 	.mainheader nav ul li {
-		float: left;
-		display:inline;
+		width: 100%;
+		text-align: center;
 	}
 
 	.mainheader nav a:link, .mainheader nav a:visited {
-		color: #fff;
-		display: inline-block;
 		padding: 10px 25px;
 		height: 20px;
+		display: block;
 	}
 
-	.mainheader nav a:hover, .mainheader nav a:active,
-	.mainheader nav .active a:link, .mainheader nav .active a:visited {
-		background-color: #CF5C3F;
-		text-shadow: none;
+/*....content----*/
+	.content {
+		width: 100%;
+		float: left;
+		margin-top: 2%;
 	}
 
-	.mainheader nav ul li a {
+	.post-info {
+		display: none;
+	}
+
+	.topcontent {
+		background-color: #FFF;
 		border-radius: 5px;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
+		padding: 3% 5%;
+		margin-top: 2%;
+		margin-bottom: 4%;
 	}
+
+	.bottomcontent {
+		margin-top: 3%;
+	}
+
+/*-------------sidebar------*/
+	.top-sidebar, .middle-sidebar, .bottom-sidebar {
+	width: 94%;
+	margin: 2% 0% 2% 0%;
+	padding: 2% 3%;
+	}
+
+
 
 
 
