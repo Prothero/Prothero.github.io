@@ -84,7 +84,7 @@ a:hover, a:active {
 }
 
 .topcontent {
-	background-color: #FFF;
+	background-color: grey;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -93,7 +93,7 @@ a:hover, a:active {
 }
 
 .bottomcontent {
-	background-color: #FFF;
+	background-color: grey;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -105,12 +105,13 @@ a:hover, a:active {
 	font-style: italic;
 	color: #FFF;
 	font-size: 90%;
+	background-color: grey;
 }
 
 .top-sidebar {
 	width: 21%;
 	float: left;
-	background-color: #FFF;
+	background-color: grey;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -122,7 +123,7 @@ a:hover, a:active {
 .middle-sidebar {
 	width: 21%;
 	float: left;
-	background-color: #FFF;
+	background-color: grey;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -134,7 +135,7 @@ a:hover, a:active {
 .bottom-sidebar {
 	width: 21%;
 	float: left;
-	background-color: #FFF;
+	background-color: grey;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
