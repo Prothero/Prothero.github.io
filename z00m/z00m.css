@@ -47,7 +47,7 @@ a:hover, a:active {
 
 .mainheader nav ul li {
 	float: left;
-	display:inline;
+	display: inline;
 }
 
 .mainheader nav a:link, .mainheader nav a:visited {
