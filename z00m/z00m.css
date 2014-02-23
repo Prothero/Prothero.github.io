@@ -34,7 +34,7 @@ a:hover, a:active {
 }
 
 .mainheader nav {
-	background-color: grey;
+	background-color: #666;
 	height: 40px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -83,7 +83,7 @@ a:hover, a:active {
 }
 
 .topcontent {
-	background-color: #FFF;
+	background-color: grey;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
